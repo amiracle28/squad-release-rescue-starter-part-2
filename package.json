@@ -1,0 +1,14 @@
+{
+  "name": "squad-release-rescue-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A local, synthetic work-request dashboard for a Squad engineering workshop.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}

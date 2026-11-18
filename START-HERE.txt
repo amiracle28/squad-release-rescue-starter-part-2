@@ -1,0 +1,88 @@
+RELEASE RESCUE: WORK-REQUEST DASHBOARD
+======================================
+
+This is a student starter, not a completed lab.
+All requests, teams, and identifiers are fictional.
+
+REQUIREMENTS
+
+Node.js 22.5 or later (includes npm) and a modern browser.
+Git is optional if you received a ZIP of the starter.
+No npm install, external packages, cloud account, database, or API key is needed.
+The app works offline after Node.js and the starter are available.
+Squad and GitHub Copilot have separate access/setup requirements; this app
+does not install or configure them.
+
+START THE APP
+
+1. Open a terminal in this folder (the one containing package.json).
+2. Run:
+
+   npm start
+
+3. Open http://127.0.0.1:4173 in your browser.
+4. Keep that terminal running. Use Ctrl+C when you want to stop the app.
+
+The server listens only on your own computer. It does not publish a website.
+Do not open public/index.html directly; the dashboard needs the local server.
+
+RUN THE STARTER TESTS
+
+In a second terminal in the same folder:
+
+   npm test
+
+These tests describe existing behavior. Passing tests do not establish that
+every reported problem has been covered.
+
+If PowerShell blocks npm.ps1, use npm.cmd start and npm.cmd test instead.
+
+THE PART 2 REQUEST
+
+Part 1 (October) fixed the duplicate-request bug; that fix is already here.
+
+"We can only filter the queue by status. We need Team and Priority filters
+too, and the summary cards must keep showing ALL requests."
+
+Open the dashboard and try the Status filter. Then follow prompts\README.md:
+your team will turn the request into a GitHub issue, write failing tests
+first, implement, check it in a browser, review, record a decision and open
+a pull request, with you approving every step.
+
+PROJECT MAP
+
+data/requests.json       Synthetic incoming work-request records
+src/requests.js          Builds the dashboard's request list and summary
+server.js                Local HTTP server and read-only data endpoint
+public/index.html        Dashboard layout and browser interactions
+test/requests.test.js    Starter business-logic tests
+test/requests.regression.test.js  Part 1 regression tests (real page harness)
+test/server.test.js      Local server smoke tests
+.squad/                  The Squad team: members, routing, memory
+prompts/                 Template prompts for every workshop step
+examples/                What our live run produced (issue, PR, .squad)
+
+RELOADING CHANGES
+
+After editing data/requests.json, click "Reload data" in the dashboard.
+After editing public/index.html, refresh your browser.
+After editing JavaScript in server.js or src/, stop and restart npm start,
+then refresh the browser.
+
+IF PORT 4173 IS ALREADY IN USE
+
+Choose another port without stopping another application:
+
+PowerShell:
+  $env:PORT = "4174"; npm start
+
+macOS/Linux:
+  PORT=4174 npm start
+
+Open the address printed by the server.
+
+BOUNDARIES
+
+Use synthetic data only. Do not paste customer data, credentials, or real
+work requests into this repository or an agent conversation.
+Review proposed changes yourself. Do not publish or deploy during the exercise.

@@ -1,0 +1,21 @@
+{
+  "assignment_cast_snapshots": {
+    "approved-team-a2869a5a-8edc-447c-8a59-f27d06f156a9": {
+      "universe": "Rick and Morty",
+      "agents": [
+        "rick",
+        "morty",
+        "summer"
+      ],
+      "created_at": "2026-10-20T15:35:07.768Z"
+    }
+  },
+  "universe_usage_history": [
+    {
+      "universe": "Rick and Morty",
+      "used_at": "2026-10-20T15:35:07.768Z"
+    }
+  ],
+  "transaction_id": "a412f062-4c87-4ac7-afbb-bef6204b6160",
+  "registry_revision": 2
+}

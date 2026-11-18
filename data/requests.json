@@ -1,0 +1,58 @@
+[
+  {
+    "id": "WR-1001",
+    "title": "Repair the lobby badge reader",
+    "team": "Workplace",
+    "priority": "High",
+    "status": "Open"
+  },
+  {
+    "id": "WR-1002",
+    "title": "Update the training-room workstation",
+    "team": "IT Services",
+    "priority": "Standard",
+    "status": "In progress"
+  },
+  {
+    "id": "WR-1001",
+    "title": "Repair the lobby badge reader",
+    "team": "Workplace",
+    "priority": "High",
+    "status": "Open"
+  },
+  {
+    "id": "WR-1003",
+    "title": "Review the onboarding checklist",
+    "team": "People Operations",
+    "priority": "Standard",
+    "status": "Open"
+  },
+  {
+    "id": "WR-1004",
+    "title": "Replace the conference-room adapter",
+    "team": "IT Services",
+    "priority": "Standard",
+    "status": "Done"
+  },
+  {
+    "id": "WR-1005",
+    "title": "Correct the supply inventory label",
+    "team": "Facilities",
+    "priority": "High",
+    "status": "Open"
+  },
+  {
+    "id": "WR-1006",
+    "title": "Update the printer location",
+    "team": "Workplace",
+    "priority": "Standard",
+    "status": "In progress"
+  },
+  {
+    "id": "WR-1005",
+    "title": "Correct the supply inventory label",
+    "team": "Facilities",
+    "priority": "High",
+    "status": "Open"
+  }
+]
